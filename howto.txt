@@ -1,0 +1,3 @@
+(terminal 1) - pyro4-ns -n localhost
+(terminal 2) - python r2ac.py localhost
+(terminal 3) - python rest.py
