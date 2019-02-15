@@ -77,8 +77,8 @@ def getPopularNews(quantity):
     # sort the list in ascending order
     newsVotes = sorted(newsVotes)
     onlyNews = [i[0] for i in newsVotes]
-
     newsToReturn = onlyNews[:int(quantity)]
+
     logger.debug(newsToReturn)
     logger.debug("----------------------------------------")
     return jsonify(newsToReturn)
